@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 03</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script_questao03.js" defer></script>
+</head>
+<body>
+
+    <h1>BEM-VINDO AO MEU SITE</h1>
+
+    <div id="div-form">
+        <h3>CUSTO DA VIAGEM</h3>
+        <form id="formulario">
+            <label for="distancia">Distância a ser percorrida (km)</label>
+            <input type="number" id="distancia" required step="0.1">
+
+            <label for="consumo">Consumo médio do veículo (km/l)</label>
+            <input type="number" id="consumo" required step="0.1">
+
+            <label for="preco">Preço do litro do combustível</label>
+            <input type="number" id="preco" required step="0.01">
+
+            <div class="botoes-container">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+        <div id="div-dados"></div>
+    </div>
+
+</body>
+</html>

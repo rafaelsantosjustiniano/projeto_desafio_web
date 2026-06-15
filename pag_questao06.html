@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 06</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script_questao06.js" defer></script>
+</head>
+<body>
+
+    <h1>BEM-VINDO AO MEU SITE</h1>
+
+    <div id="div-form">
+        <h3>CÁLCULO DE IMC</h3>
+        <form id="formulario">
+            <label for="nome">Nome do Paciente</label>
+            <input type="text" id="nome" required>
+
+            <label for="peso">Peso (kg)</label>
+            <input type="number" id="peso" required step="0.1">
+
+            <label for="altura">Altura (m)</label>
+            <input type="number" id="altura" required step="0.01">
+
+            <div class="botoes-container">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+        <div id="div-dados"></div>
+    </div>
+
+</body>
+</html>
